@@ -1,6 +1,6 @@
 # Programming Ruby: The Pragmatic Programmer's Guide
 
-This repo is just some code that follows along with the book ("Programming RUby: The Pragmatic Programmer's Guide")[http://ruby-doc.com/docs/ProgrammingRuby/]
+This repo is just some code that follows along with the book ["Programming Ruby: The Pragmatic Programmer's Guide"](http://ruby-doc.com/docs/ProgrammingRuby/)
 
 The code herein may not be fully comprehensive, and is best to follow the above link to the original material as hosted on ruby-doc.com.
 
