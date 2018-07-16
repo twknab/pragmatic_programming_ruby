@@ -4,6 +4,7 @@ puts "------------------"
 puts "---- NUMBERS -----"
 puts "------------------"
 # Ruby allows for floating point and integers.
+# Both "Integer" and "Float" are unique types in Ruby
 
 # Numbers have some cool built in methods, like
 
@@ -64,3 +65,13 @@ ARBITRARY_TEXT
 # Checkout some cool ones like `chomp`, `squeeze` and `split`
 
 # We'll show a few examples of that below
+
+def my_test(thing1, thing2)
+  puts "let\'s start my test:"
+  puts thing2.class
+  puts "YES" if thing1.class == String
+  puts "INTEGER" if thing2.class == Integer
+  puts "FLOAT" if thing2.class == Float
+end
+
+my_test("hello", 1.02)
